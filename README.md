@@ -15,14 +15,11 @@ Requirements:-
         - Container 2
             - On clicking of customer row in container 1, list of customer’s address should be listed (customer may have 0 or more addresses assigned to him)
  
-    - API (Optional) – Use mock APIs 
-        - endpoint to fetch customer info, given customer id
-        - endpoint to fetch all customer addresses given customer id
+    - API (Optional) – Used mocked APIs 
+        - endpoint to fetch customer list with info
+        - endpoint to fetch all customer addresses for a given customer id
  
-    - Database (Optional) [Not required if using mock APIs]
-        - Store customer and address data in a database. Prepopulate customers data in the database with seed data.
- 
-Tech choices:
+    
 
 - UI
     - react 
