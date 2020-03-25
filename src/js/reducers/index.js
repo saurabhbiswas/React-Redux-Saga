@@ -1,4 +1,5 @@
-import { ADD_ARTICLE } from "../constants/action-types";
+import { CUSTOMER_ADDRESS_LOADED,CUSTOMER_LIST_LOADED } from "../constants/action-types";
+
 
 const initialState = {
   customerList: [],
@@ -7,15 +8,13 @@ const initialState = {
 
 function rootReducer(state = initialState, action) {
   
-  if (action.type === "CUSTOMER_ADDRESS_LOADED") {
-    console.log("CUSTOMER_ADDRESS_LOADED",action.payload);
+  if (action.type === CUSTOMER_ADDRESS_LOADED) {
     return Object.assign({}, state, {
       customerAddress: action.payload
     });
   }
-  if (action.type === "CUSTOMER_LIST_LOADED") {
-   
-    return Object.assign({}, state, {
+  if (action.type === CUSTOMER_LIST_LOADED) {
+   return Object.assign({}, state, {
       customerList: action.payload
     });
   }

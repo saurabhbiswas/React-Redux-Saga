@@ -6,10 +6,10 @@ import './App.css';
 
 class App extends Component {
   render() {
-    console.log("Host URL"+process.env.PUBLIC_URL);
+    
     return (
 
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <div className="App">
         <header className="App-header">
           <img src="./assets/images/conviva.png" className="App-logo" alt="logo" />

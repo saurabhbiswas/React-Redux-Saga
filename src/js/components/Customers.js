@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
-
 import CustomerAddressDetails from './CustomerAddressDetails'
 import { connect } from "react-redux";
 import { getCustomerList,getCustomerAddress} from "../actions/index";
-//import axios from 'axios'
+
 
 export  class Customers extends Component {
 
@@ -15,23 +14,23 @@ export  class Customers extends Component {
   //function which is called the first time the component loads
   componentDidMount() {
     this.props.getCustomerList();
-    //this.getCustomerData();
+    
   }
 
   
 
   render() {
-    console.log("Customers List in render",this.props.customerList);
-
-    
     if (!this.props.customerList.length)
-      return (<p>Loading data</p>)
+      return (
+        <p>Loading data</p>
+        );
 
-    return (<div className="addmargin">
+    return (
+    <div className="addmargin">
       <div className="col-1" >
         {
 
-          this.props.customerList.map(customer => <div className="card"  key={customer.name} 
+          this.props.customerList.map(customer => <div className="card"  key={customer.id+customer.name} 
           onClick={() => this.props.getCustomerAddress({selectedCustomer: customer.id})}>
             <div className="header">
               {customer.name}

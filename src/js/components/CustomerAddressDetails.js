@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Panel from 'react-bootstrap/lib/Panel'
 import AddressList from './AddressList';
 import { connect } from "react-redux";
 
@@ -10,14 +9,14 @@ function mapStateToProps(state) {
   };
 }
 
-//This Component is a child Component of Customers Component
+
 const CustomerAddressDetail = ({ customerAddressDetail }) => {
 
-console.log("CustomerAddressDetail r--->",customerAddressDetail);
-    if (!(customerAddressDetail && customerAddressDetail.addressDetail)
-      )
+
+    if (!(customerAddressDetail && customerAddressDetail.addressDetail))
       return(<div/>);
-    return (<div className="card">
+    return (
+      <div className="card">
       
         <div className="header">
           Address 
@@ -25,11 +24,11 @@ console.log("CustomerAddressDetail r--->",customerAddressDetail);
         <div className="title">
         {customerAddressDetail.name}
         </div>
-        <div>
+         <div>
           <AddressList addressList={customerAddressDetail.addressDetail} />
-       </div>
+         </div>
      
-    </div>
+      </div>
     )
   }
   
