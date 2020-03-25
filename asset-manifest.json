@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Redux-Saga/static/css/main.2b9e0e9f.chunk.css",
+    "main.js": "/React-Redux-Saga/static/js/main.00b4b66f.chunk.js",
+    "main.js.map": "/React-Redux-Saga/static/js/main.00b4b66f.chunk.js.map",
+    "runtime-main.js": "/React-Redux-Saga/static/js/runtime-main.85c91d4a.js",
+    "runtime-main.js.map": "/React-Redux-Saga/static/js/runtime-main.85c91d4a.js.map",
+    "static/js/2.bb66c4f2.chunk.js": "/React-Redux-Saga/static/js/2.bb66c4f2.chunk.js",
+    "static/js/2.bb66c4f2.chunk.js.map": "/React-Redux-Saga/static/js/2.bb66c4f2.chunk.js.map",
+    "index.html": "/React-Redux-Saga/index.html",
+    "precache-manifest.772fdd0107400ef60bd1fef249eec5cc.js": "/React-Redux-Saga/precache-manifest.772fdd0107400ef60bd1fef249eec5cc.js",
+    "service-worker.js": "/React-Redux-Saga/service-worker.js",
+    "static/css/main.2b9e0e9f.chunk.css.map": "/React-Redux-Saga/static/css/main.2b9e0e9f.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85c91d4a.js",
+    "static/js/2.bb66c4f2.chunk.js",
+    "static/css/main.2b9e0e9f.chunk.css",
+    "static/js/main.00b4b66f.chunk.js"
+  ]
+}
