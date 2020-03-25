@@ -1,7 +1,2 @@
 node_modules/
-prod/*.html
-prod/neil-island/*.html
-prod/portblair/*.html
-prod/swaraj-dweep/*.html
-prod/middle-andaman/*.html
-prod/havelock/*.html
+build/
