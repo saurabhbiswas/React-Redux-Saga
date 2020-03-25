@@ -19,7 +19,7 @@ export  class Customers extends Component {
   
 
   render() {
-    console.log("customer.js",this.props.customerList);
+
     if (!this.props.customerList.length)
       return (
         <p>Loading data</p>
@@ -36,7 +36,7 @@ export  class Customers extends Component {
               {customer.name}
             </div>
             <div>
-              <p>Email: {customer.email}, mobile: {customer.phone}, 
+              <p>Email: {customer.email}, ID : {customer.id}, 
               Age: {customer.age}, Sex: {customer.sex} </p>
               
             </div>
