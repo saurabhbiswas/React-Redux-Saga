@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Redux-Saga/static/css/main.d33c4890.chunk.css",
-    "main.js": "/React-Redux-Saga/static/js/main.6f9babe3.chunk.js",
-    "main.js.map": "/React-Redux-Saga/static/js/main.6f9babe3.chunk.js.map",
+    "main.js": "/React-Redux-Saga/static/js/main.fa8acbb7.chunk.js",
+    "main.js.map": "/React-Redux-Saga/static/js/main.fa8acbb7.chunk.js.map",
     "runtime-main.js": "/React-Redux-Saga/static/js/runtime-main.5f738355.js",
     "runtime-main.js.map": "/React-Redux-Saga/static/js/runtime-main.5f738355.js.map",
     "static/js/2.70819ea1.chunk.js": "/React-Redux-Saga/static/js/2.70819ea1.chunk.js",
     "static/js/2.70819ea1.chunk.js.map": "/React-Redux-Saga/static/js/2.70819ea1.chunk.js.map",
     "index.html": "/React-Redux-Saga/index.html",
-    "precache-manifest.c0c09b9e214d849aede3a89282ea53b5.js": "/React-Redux-Saga/precache-manifest.c0c09b9e214d849aede3a89282ea53b5.js",
+    "precache-manifest.667197f9ae6e120289993647e655eb0d.js": "/React-Redux-Saga/precache-manifest.667197f9ae6e120289993647e655eb0d.js",
     "service-worker.js": "/React-Redux-Saga/service-worker.js",
     "static/css/main.d33c4890.chunk.css.map": "/React-Redux-Saga/static/css/main.d33c4890.chunk.css.map",
     "static/js/2.70819ea1.chunk.js.LICENSE.txt": "/React-Redux-Saga/static/js/2.70819ea1.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5f738355.js",
     "static/js/2.70819ea1.chunk.js",
     "static/css/main.d33c4890.chunk.css",
-    "static/js/main.6f9babe3.chunk.js"
+    "static/js/main.fa8acbb7.chunk.js"
   ]
 }
