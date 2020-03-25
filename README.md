@@ -7,6 +7,7 @@ https://saurabhbiswas.github.io/React-Redux-Saga
 
 Design an application to display customer information on the landing page. Assignment has been broken down into three parts- Front End UI, Backend read APIs and Database schema design. Sub-parts of each section has been annotated as mandatory/optional. Optional assignments are good to have to demonstrate e2e functionality. Detailed requirements follows:
 
+![Conviva App](https://saurabhbiswas.github.io/React-Redux-Saga/assets/images/conviva-app.png)
 ## Requirements:-
 
    ## UI 
