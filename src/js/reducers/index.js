@@ -9,6 +9,8 @@ const initialState = {
 function rootReducer(state = initialState, action) {
   
   if (action.type === CUSTOMER_ADDRESS_LOADED) {
+
+    console.log("rootReducer",action.payload);
     return Object.assign({}, state, {
       customerAddress: action.payload
     });

@@ -19,6 +19,7 @@ export  class Customers extends Component {
   
 
   render() {
+    console.log("customer.js",this.props.customerList);
     if (!this.props.customerList.length)
       return (
         <p>Loading data</p>
