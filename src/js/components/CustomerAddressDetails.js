@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import AddressList from './AddressList';
 import { connect } from "react-redux";
 

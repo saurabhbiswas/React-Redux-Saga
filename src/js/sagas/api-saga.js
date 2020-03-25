@@ -1,8 +1,6 @@
 
-
-  import { take,put, call, fork, select, takeEvery, all } from 'redux-saga/effects'
+  import { put, call, fork, takeEvery, all } from 'redux-saga/effects'
   import axios from 'axios';
-  import * as actions from '../actions';
   import * as actionType from "../constants/action-types";
 
 
@@ -28,7 +26,7 @@
    
     /*if(action&&action.payload)
       console.log(action.payload.selectedCustomer);*/
-    let id=action&&action.payload?action.payload.selectedCustomer:-1;
+    let id=action&&action.payload?action.payload.selectedCustomer:actionType.CUSTOMER_INVALID_ID;
    
     try {
       const payload = yield call(getAddress,id);
@@ -40,13 +38,12 @@
 
 
   function getAddress(id){
-    if(!!id){
-       console.log("id inside",id)
+    if(id!==actionType.CUSTOMER_INVALID_ID){
       return  axios.get('assets/samplejson/customer'+id+'.json').then(response=>response.data);
        }
     else {
-      throw new Error("invalid id");
-    }
+      throw new Error(actionType.CUSTOMER_INVALID_ID_ERROR);
+       }
 
   }
   function getData() {
