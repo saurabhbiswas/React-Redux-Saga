@@ -1,0 +1,31 @@
+[{
+	"id": 1,
+	"name": "Saurabh Biswas",
+	"email": "biswas@gmail.com",
+	"phone": "123456789",
+	"sex"  :"male",
+	"age":39
+},  {
+	"id": 2,
+	"name": "Tyrion",
+	"email": "tyrion@conviva.com",
+	"phone": "9886334220",
+	"sex"  :"female",
+	"age":20
+},
+{
+	"id": 3,
+	"name": "Len Jiko",
+	"email": "abcd@conviva.com",
+	"phone": "987654321",
+	"sex"  :"male",
+	"age":29
+},
+{
+	"id": 4,
+	"name": "Mast Gold",
+	"email": "marrium@conviva.com",
+	"phone": "123412345",
+	"sex"  :"female",
+	"age":20
+}]
