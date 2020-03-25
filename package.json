@@ -1,8 +1,8 @@
 {
-  "name": "react-redux-saga",
+  "name": "React-Redux-Saga",
   "author":"Saurabh Biswas",
   "homepage": "https://saurabhbiswas.github.io/React-Redux-Saga",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "private": true,
   "dependencies": {
     "react": "^16.13.1",

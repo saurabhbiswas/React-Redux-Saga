@@ -6,7 +6,9 @@ import { getCustomerList,getCustomerAddress} from "../actions/index";
 
 export  class Customers extends Component {
 
-  
+  constructor(props) {
+    super(props);
+  }
 
   //function which is called the first time the component loads
   componentDidMount() {
