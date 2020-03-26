@@ -20,9 +20,9 @@ Design an application to display customer information on the landing page. Assig
 
 
 ## UI
-  * react 
-  * state management - redux 
-  * middleware - reduct saga 
+  * React 
+  * State management - redux 
+  * Middleware - redux-saga 
   
 ## API (Optional) – Used mocked APIs 
   * endpoint to fetch customer list with info
